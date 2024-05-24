@@ -3,6 +3,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'detail_map.dart';
 import 'model/model_kampus.dart';
 
+
 class PageDetail extends StatefulWidget {
   final Datum? data;
   const PageDetail(this.data, {Key? key}) : super(key: key);

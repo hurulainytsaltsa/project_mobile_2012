@@ -5,6 +5,7 @@ import 'package:project_mobile/latihan/page_detail.dart';
 
 import 'model/model_kampus.dart';
 
+
 class PageBeranda extends StatefulWidget {
   const PageBeranda({super.key});
 

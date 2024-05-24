@@ -2,6 +2,7 @@
 //
 //     final modelKampus = modelKampusFromJson(jsonString);
 
+
 import 'dart:convert';
 
 ModelKampus modelKampusFromJson(String str) => ModelKampus.fromJson(json.decode(str));

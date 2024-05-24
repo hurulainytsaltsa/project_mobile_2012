@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_mobile/latihan/page_beranda.dart';
 
+
 class PageSplash extends StatefulWidget {
   const PageSplash({super.key});
 
