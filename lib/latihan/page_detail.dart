@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'detail_map.dart';
 import 'model/model_kampus.dart';
-
 
 class PageDetail extends StatefulWidget {
   final Datum? data;
@@ -74,17 +72,17 @@ class _PageDetailState extends State<PageDetail> {
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
           ),
           SizedBox(height: 10,),
-          IconButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => MapPage(latitude, longitude),
-                ),
-              );
-            },
-            icon: Icon(Icons.arrow_back),
-          ),
+          // IconButton(
+          //   onPressed: () {
+          //     // Navigator.push(
+          //     //   context,
+          //     //   MaterialPageRoute(
+          //     //     builder: (_) => MapPage(latitude, longitude),
+          //     //   ),
+          //     );
+          //   },
+          //   icon: Icon(Icons.arrow_back),
+          // ),
           Container(
               height: 300, // Tentukan tinggi untuk GoogleMap
               child: GoogleMap(

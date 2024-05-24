@@ -36,7 +36,6 @@ class MyApp extends StatelessWidget {
       ),
       home: PageSplash(),
       debugShowCheckedModeBanner: false,
-
     );
   }
 }
