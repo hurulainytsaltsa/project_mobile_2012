@@ -16,7 +16,8 @@ class _MapsFlutterState extends State<MapsFlutter> {
         title: const Text('Maps Flutter'),
         backgroundColor: Colors.deepPurple,
       ),
-      body: GoogleMap(
+      body:
+      GoogleMap(
         myLocationEnabled: true,
         initialCameraPosition: const CameraPosition(
             target: LatLng(-0.9145393574758512, 100.46614925234854), zoom: 16),
